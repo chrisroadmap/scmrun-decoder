@@ -1,0 +1,13 @@
+name: scmrun-decoder
+channels:
+  - chrisroadmap
+  - conda-forge
+dependencies:
+  - python==3.11
+  - jupyter
+  - fair==2.1.4
+  - nbstripout
+  - netCDF4
+  - pooch
+  - scmdata
+  - xarray
